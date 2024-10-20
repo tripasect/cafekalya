@@ -936,7 +936,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	fill:var(--swatch-var-5202);
 }
 .bloc-bloc-11-fill{
-	fill:var(--swatch-var-528);
+	fill:var(--swatch-var-5202);
 }
 .mehdi-and-saeed{
 	padding-top:40px;
@@ -958,6 +958,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	width:0px;
 	height:0px;
 	font-size:0px;
+}
+.bloc-block-13-fill{
+	fill:var(--swatch-var-528);
 }
 
 /* = Colour
