@@ -524,19 +524,19 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://cafekalya.ir/img/0large.png</image:loc>
+	<image:title>drink thumb</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/0large.webp</image:loc>
+	<image:title>drink thumb</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://cafekalya.ir/img/0hype.png</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
 	<image:loc>https://cafekalya.ir/img/0hype.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/0pepsi.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/0pepsi.webp</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
@@ -556,11 +556,11 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/0large.png</image:loc>
+	<image:loc>https://cafekalya.ir/img/0pepsi.png</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/0large.webp</image:loc>
+	<image:loc>https://cafekalya.ir/img/0pepsi.webp</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
