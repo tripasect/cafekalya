@@ -1,5 +1,5 @@
 # Cafe Kalya, small cafe in Boostan-e Javanmardan-e Iran, Tehran, Iran
-15% discount voucher: ```fellow-programmer```
+15% discount Cafe Kalya voucher: ```fellow-programmer```
 
 ## Screenshots
 <img width="271" alt="CAFEKALYA IR - 000014" src="https://github.com/user-attachments/assets/43096e9a-dbb5-4e93-9b78-a27e50b1f89a">
