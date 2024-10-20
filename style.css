@@ -954,6 +954,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container-div-bloc-2-style{
 	width:23.35%;
 }
+.completely-hidden{
+	width:0px;
+	height:0px;
+	font-size:0px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
