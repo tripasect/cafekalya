@@ -436,14 +436,6 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/chicken-wing.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/chicken-wing.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://cafekalya.ir/img/ash-e%20reshteh.png</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
@@ -596,6 +588,14 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
+	<image:loc>https://cafekalya.ir/img/cheese-fries.png</image:loc>
+	<image:title>drink thumb</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/cheese-fries.webp</image:loc>
+	<image:title>drink thumb</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://cafekalya.ir/img/french-fries.png</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
@@ -604,11 +604,11 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/cheese-fries.png</image:loc>
+	<image:loc>https://cafekalya.ir/img/chicken-wing.png</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/cheese-fries.webp</image:loc>
+	<image:loc>https://cafekalya.ir/img/chicken-wing.webp</image:loc>
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>

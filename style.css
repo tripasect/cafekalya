@@ -547,9 +547,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .primary-divider{
 	width:150px;
 	height:3px;
-	background-color:var(--swatch-var-6829);
+	background-color:var(--swatch-var-3409);
 	margin:10px auto 40px auto;
-	fill:var(--swatch-var-6829);
+	fill:var(--swatch-var-3409);
 }
 .primary-btn{
 	color:#FEFFFE!important;
@@ -587,7 +587,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	color:transparent!important;
 }
 .primary-icon{
-	fill:var(--swatch-var-6829);
+	fill:var(--swatch-var-3409);
 }
 .form-btn{
 	min-width:200px;
@@ -849,7 +849,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-size:20px;
 }
 .main-title{
-	fill:rgba(255,255,255,0.91);
+	fill:#FFFFFF;
 	text-align:center;
 	float:none;
 	stroke:#B81E1E;
@@ -1045,11 +1045,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 
 /* Background colour styles */
 
-.bgc-6829{
-	background-color:var(--swatch-var-6829);
-}
-.bgc-5202{
-	background-color:var(--swatch-var-5202);
+.bgc-3409{
+	background-color:var(--swatch-var-3409);
 }
 .bgc-5967{
 	background-color:var(--swatch-var-5967);
@@ -1062,6 +1059,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .bgc-2869{
 	background-color:var(--swatch-var-2869);
+}
+.bgc-5202{
+	background-color:var(--swatch-var-5202);
 }
 
 /* Text colour styles */
