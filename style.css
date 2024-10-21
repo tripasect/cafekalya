@@ -962,6 +962,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .bloc-block-13-fill{
 	fill:var(--swatch-var-528);
 }
+.arrow{
+	margin-top:100px;
+	width:100px;
+}
+.container-div-bloc-1-min-height{
+	min-height:56px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */

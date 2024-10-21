@@ -5,6 +5,10 @@
 	<lastmod>2024-10-21</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/seta_baixo.gif</image:loc>
+	<image:title>seta_baixo</image:title>
+	</image:image>
 </url>
 <url>
 	<loc>https://cafekalya.ir/menu/menu.html</loc>
