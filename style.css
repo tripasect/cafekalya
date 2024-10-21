@@ -691,14 +691,13 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-transform:none;
 	font-weight:700;
 	color:var(--swatch-var-2941)!important;
-	padding-top:12px;
-	padding-bottom:12px;
 	width:38.66%;
 	text-align:center;
 	background-size:cover;
 	border-radius:89px 89px 89px 89px;
 	border-width:0px 0px 0px 0px;
 	border-color:rgba(250,247,247,0.65)!important;
+	opacity:1.0;
 }
 .مسیریابی{
 	font-family:"Noto Sans Arabic";
@@ -781,7 +780,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .container-div-bloc-1-style{
 	width:100%;
 	min-height:40px;
-	padding-bottom:40px;
+	padding-bottom:20px;
+	opacity:1.0;
 }
 .container-div-bloc-10-style{
 	width:100%;
@@ -860,7 +860,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	text-align:center;
 	width:100%;
 	font-weight:normal;
-	font-family:"Noto Sans Arabic";
+	font-family:"Noto Kufi Arabic";
 	font-size:26px;
 	color:#F2F2F2!important;
 	text-shadow:1.36px 1.46px 14px rgba(0,0,0,0.52);
@@ -1571,7 +1571,7 @@ url("img/pie.webp") 2x);
 	}
 	.container-div-bloc-1-style{
 		min-height:55px;
-		padding-bottom:40px;
+		padding-bottom:20px;
 		opacity:1.0;
 	}
 	.share-review{
@@ -1595,7 +1595,7 @@ url("img/pie.webp") 2x);
 	}
 	.h3-style{
 		font-weight:normal;
-		font-family:"Noto Sans Arabic";
+		font-family:"Noto Kufi Arabic";
 	}
 	.dumb-down{
 	}
@@ -1659,7 +1659,8 @@ url("img/pie.webp") 2x);
 		background-color:transparent;
 	}
 	.container-div-bloc-1-style{
-		min-height:49px;
+		width:100%;
+		min-height:75px;
 	}
 	.container-div-bloc-10-style{
 		width:100%;
@@ -1669,11 +1670,13 @@ url("img/pie.webp") 2x);
 		font-size:11px;
 	}
 	.btn-منو-style{
-		padding-top:0px;
-		padding-bottom:0px;
-		border-radius:58px 58px 58px 58px;
-		width:98.22%;
-		font-size:75px;
+		padding-top:12px;
+		padding-bottom:12px;
+		border-radius:65px 65px 65px 65px;
+		font-size:70px;
+		opacity:1;
+		background-color:var(--swatch-var-3399);
+		width:78.29%;
 	}
 	.منو{
 		font-size:66px;
@@ -1742,6 +1745,7 @@ url("img/pie.webp") 2x);
 	}
 	.h3-style{
 		font-weight:normal;
+		font-family:"Noto Kufi Arabic";
 	}
 	.mehdi-and-saeed{
 		padding-top:30px;
