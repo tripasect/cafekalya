@@ -5,6 +5,14 @@
 	<lastmod>2024-10-22</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/cafe-kalya-homepage.jpg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/cafe-kalya-homepage.jpg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
+	</image:image>
 </url>
 <url>
 	<loc>https://cafekalya.ir/menu/menu.html</loc>
@@ -642,6 +650,14 @@
 	<image:image>
 	<image:loc>https://cafekalya.ir/img/chocolate-cake.webp</image:loc>
 	<image:title>drink thumb</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/Screenshot%202024-10-22%20at%2009.00.32@1920×1080.jpeg</image:loc>
+	<image:title>Twitter Social Card Image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/Screenshot%202024-10-22%20at%2009.00.32@1920×1080.jpeg</image:loc>
+	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
 </urlset>

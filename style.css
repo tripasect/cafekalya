@@ -1142,13 +1142,6 @@ url("img/pattern-transparent.webp") 2x);background-image: image-set(url("img/pat
 url("img/pattern-transparent.png") 2x,url("img/pattern-transparent.webp") 1x,
 url("img/pattern-transparent.webp") 2x);
 }
-.bg-barg{
-	background-image:url("img/barg.jpg");
-	background-image: -webkit-image-set(url("img/barg.webp") 1x,
-url("img/barg.webp") 2x);background-image: image-set(url("img/barg.jpg") 1x,
-url("img/barg.jpg") 2x,url("img/barg.webp") 1x,
-url("img/barg.webp") 2x);
-}
 .bg-anar{
 	background-image:url("img/anar.jpg");
 	background-image: -webkit-image-set(url("img/anar.webp") 1x,
