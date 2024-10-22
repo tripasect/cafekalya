@@ -575,6 +575,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .cap-heading{
 	text-transform:uppercase;
+	padding-top:10px;
 }
 .hero-fill-mask{
 	fill:rgba(255,255,255,0.33);
@@ -598,11 +599,11 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 .drink-thumb{
 	float:left;
 	background-color:transparent;
-	width:66px;
-	height:66px;
+	width:100px;
+	height:100px;
 }
 .menu-grid{
-	grid-template-columns:0.20fr 1fr 0.25fr;
+	grid-template-columns:0.50fr 1fr 0.25fr;
 	column-gap:13px;
 }
 .page-heading{
@@ -743,6 +744,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .menu-item-title{
 	font-family:"Noto Sans Arabic";
+	padding-top:14px;
 }
 .menu-item-info{
 	font-family:"Noto Sans Arabic";
@@ -752,6 +754,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-family:"Noto Kufi Arabic";
 	text-align:center;
 	direction:rtl;
+	padding-top:20px;
 }
 .p-style{
 	font-size:px;
@@ -971,6 +974,12 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 }
 .container-div-bloc-1-min-height{
 	min-height:56px;
+}
+.img-cappucci-style{
+	width:98px;
+}
+.container-div-0-style{
+	width:100%;
 }
 
 /* = Colour
@@ -1413,7 +1422,8 @@ url("img/pie.webp") 2x);
 		width:100%;
 	}
 	.menu-grid{
-		grid-template-columns:0.30fr 1fr 0.25fr;
+		grid-template-columns:0.35fr 1fr 0.25fr;
+		row-gap:16px;
 	}
 	.logo-style{
 		font-size:25px;
@@ -1462,8 +1472,8 @@ url("img/pie.webp") 2x);
 	}
 	.drink-thumb{
 		background-color:transparent;
-		width:90px;
-		height:90px;
+		width:100px;
+		height:100px;
 	}
 	.container-div-bloc-10-style{
 		width:100%;
@@ -1600,6 +1610,15 @@ url("img/pie.webp") 2x);
 	}
 	.img-style{
 		width:398px;
+	}
+	.img-cappucci-style{
+		width:100px;
+	}
+	.container-div-0-style{
+		min-height:110px;
+	}
+	.img-mocha-coffe-style{
+		width:100px;
 	}
 	
 }
