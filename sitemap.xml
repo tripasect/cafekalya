@@ -6,11 +6,11 @@
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/cafe-kalya-homepage.jpg</image:loc>
+	<image:loc>https://cafekalya.ir/img/homepage@1920×1080.jpeg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/cafe-kalya-homepage.jpg</image:loc>
+	<image:loc>https://cafekalya.ir/img/homepage@1920×1080.jpeg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
@@ -652,11 +652,11 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/Screenshot%202024-10-22%20at%2009.00.32@1920×1080.jpeg</image:loc>
+	<image:loc>https://cafekalya.ir/img/menu@1920×1080.jpeg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/Screenshot%202024-10-22%20at%2009.00.32@1920×1080.jpeg</image:loc>
+	<image:loc>https://cafekalya.ir/img/menu@1920×1080.jpeg</image:loc>
 	<image:title>Facebook Social Card Image</image:title>
 	</image:image>
 </url>
