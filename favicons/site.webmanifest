@@ -17,11 +17,14 @@
   "display": "standalone",
   "theme_color": "#6E3E22",
   "background_color": "#6E3E22",
+  "id": "cafekalya",
+  "description": "عصر دنج و دوست‌داشتنی تو کافه کالیا: وبستایت و منوی دیجیتال",
   "dir": "rtl",
-  "lang": "fa",
   "scope": "/",
-  "orientation": "natural",
+  "lang": "fa",
+  "orientation": "portrait-primary",
   "display_override": [
+    "standalone",
     "window-controls-overlay"
   ]
 }
