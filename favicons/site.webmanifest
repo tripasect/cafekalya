@@ -1,6 +1,7 @@
 {
   "short_name": "Kalya",
   "name": "Cafe Kalya",
+  "start_url": "https://cafekalya.ir",
   "icons": [
     {
       "src": "/favicons/192x192.png",
@@ -15,6 +16,12 @@
   ],
   "display": "standalone",
   "theme_color": "#6E3E22",
-  "background_color": "#6E3E22"
-  "start_url": "https://cafekalya.ir"
+  "background_color": "#6E3E22",
+  "dir": "rtl",
+  "lang": "fa",
+  "scope": "/",
+  "orientation": "natural",
+  "display_override": [
+    "window-controls-overlay"
+  ]
 }
