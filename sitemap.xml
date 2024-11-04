@@ -6,6 +6,118 @@
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0157.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0157.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0100.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0100.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_1001.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_1001.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/Image.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/Image.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0092.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0092.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0112.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0112.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0067.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0067.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0878.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0878.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0869.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0869.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0839.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0839.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0823.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0823.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0818.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0818.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0810.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0810.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0969.jpeg</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
+	<image:loc>https://cafekalya.ir/img/TRI_0969.webp</image:loc>
+	<image:title>placeholder image</image:title>
+	</image:image>
+	<image:image>
 	<image:loc>https://cafekalya.ir/img/homepage@1920×1080.jpeg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -673,13 +785,5 @@
 	<lastmod>2024-11-04</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/social-preview.jpg</image:loc>
-	<image:title>social preview</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/social-preview.webp</image:loc>
-	<image:title>social preview</image:title>
-	</image:image>
 </url>
 </urlset>
