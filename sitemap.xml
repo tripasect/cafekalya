@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://cafekalya.ir</loc>
-	<lastmod>2024-11-15</lastmod>
+	<lastmod>2024-12-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -128,97 +128,9 @@
 </url>
 <url>
 	<loc>https://cafekalya.ir/menu.html</loc>
-	<lastmod>2024-11-15</lastmod>
+	<lastmod>2024-12-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/cappuccino.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/cappuccino.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/latte.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/latte.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/mocha-coffee-.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/mocha-coffee-.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/espresso.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/espresso.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/double-espresso.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/double-espresso.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/turkish-coffee.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/turkish-coffee.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/black-cup-of-coffee.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/black-cup-of-coffee.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/hot-chocolate.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/hot-chocolate.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/cortado.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/cortado.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/affogato.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/affogato.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/cortado-2.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/cortado-2.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
 	<image:image>
 	<image:loc>https://cafekalya.ir/img/iced-caramel-macchiato-.png</image:loc>
 	<image:title>drink thumb</image:title>
@@ -774,13 +686,13 @@
 </url>
 <url>
 	<loc>https://cafekalya.ir/snapp.html</loc>
-	<lastmod>2024-11-15</lastmod>
+	<lastmod>2024-12-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://cafekalya.ir/maps.html</loc>
-	<lastmod>2024-11-15</lastmod>
+	<lastmod>2024-12-18</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
