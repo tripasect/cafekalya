@@ -133,6 +133,10 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 	background-position: top left!important;
 	background-repeat: no-repeat;
 }
+.bg-bl-edge{
+	background-position: bottom left!important;
+	background-repeat: no-repeat;
+}
 .bg-br-edge{
 	background-position: bottom right!important;
 	background-repeat: no-repeat;
@@ -398,6 +402,10 @@ button{
 .img-rd-lg{
 	border-radius:34px;
 }
+/*  Image Protection */
+.img-protected{
+	-webkit-touch-callout: none;
+}
 
 
 
@@ -646,7 +654,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:6px;
 }
 .bloc-fill{
-	fill:var(--swatch-var-2803);
+	fill:var(--swatch-var-4144);
 }
 .bloc-0-fill{
 	fill:var(--swatch-var-5202);
@@ -712,15 +720,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:89px 89px 89px 89px;
 	border-width:0px 0px 0px 0px;
 	border-color:rgba(250,247,247,0.65)!important;
-	background-image:url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg");
-	background-image: -webkit-image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);background-image: image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 2x,url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);
-	background-image: -webkit-image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);background-image: image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 2x,url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);
+	background-image:url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp");
+	background-color:var(--swatch-var-703);
+	color:var(--swatch-var-2941)!important;
 }
 .مسیریابی{
 	font-family:"Noto Sans Arabic";
@@ -1073,6 +1075,11 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 .divider-style{
 	width:10%;
 }
+.h3-یلداتون-مبارک-style{
+	font-family:"Noto Sans Arabic";
+	font-weight:700;
+	font-size:100px;
+}
 
 /* = Colour
 -------------------------------------------------------------- */
@@ -1084,49 +1091,17 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 	
 	--swatch-var-2941:rgba(255,255,255,1.00);
 	
-	--swatch-var-6728:rgba(255,255,255,0.69);
-	
-	--swatch-var-3409:#9B0038;
-	
-	--swatch-var-6613:rgba(252,203,95,1.00);
-	
-	--swatch-var-2869:rgba(0,0,0,0.90);
-	
-	--swatch-var-2295:rgba(144,129,53,0.96);
+	--swatch-var-3409:rgba(193,9,9,1.00);
 	
 	--swatch-var-2359:#4D40A6;
-	
-	--swatch-var-7438:rgba(243,156,98,0.92);
 	
 	--swatch-var-789:rgba(19,145,222,1.00);
 	
 	--swatch-var-5536:rgba(16,224,112,0.71);
 	
-	--swatch-var-2631:rgba(60,60,60,0.00);
-	
-	--swatch-var-878:rgba(144,129,37,0.08);
-	
-	--swatch-var-290:rgba(255,129,144,0.17);
-	
-	--swatch-var-2022:rgba(226,217,0,1.00);
-	
-	--swatch-var-5799:rgba(255,157,46,0.25);
-	
-	--swatch-var-7343:rgba(0,0,0,1.00);
-	
-	--swatch-var-2399:rgba(144,129,112,0.75);
-	
-	--swatch-var-6702:rgba(255,255,255,0.32);
-	
 	--swatch-var-5967:rgba(220,191,125,0.28);
 	
 	--swatch-var-5317:rgba(123,62,222,1.00);
-	
-	--swatch-var-4425:rgba(171,125,23,1.00);
-	
-	--swatch-var-5494:rgba(60,60,60,0.61);
-	
-	--swatch-var-7363:rgba(219,185,154,0.12);
 	
 	--swatch-var-6829:rgba(209,190,169,1.00);
 	
@@ -1134,46 +1109,41 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 	
 	--swatch-var-598:rgba(14,25,125,1.00);
 	
-	--swatch-var-4224:#054901;
+	--swatch-var-4224:rgba(5,73,2,0.81);
 	
-	--swatch-var-528:rgba(250,186,167,0.54);
+	--swatch-var-528:rgba(246,237,202,0.57);
 	
 	--swatch-var-5202:rgba(255,255,255,0.67);
 	
-	--swatch-var-2803:rgba(99,12,12,0.74);
+	--swatch-var-2803:rgba(99,45,12,0.74);
 	
-	--swatch-var-2814:rgba(60,60,60,0.79);
+	--swatch-var-4949:rgba(99,45,12,1.00);
 	
-	--swatch-var-4949:#2E400F;
+	--swatch-var-229:rgba(60,60,60,0.90);
 	
-	--swatch-var-1038:#8C4317;
-	
-	--swatch-var-229:rgba(60,155,60,0.90);
-	
-	--swatch-var-703:#10E070;
-	
-	--swatch-var-4628:rgba(212,220,218,1.00);
+	--swatch-var-703:rgba(16,224,112,1.00);
 	
 	--swatch-var-7956:#440149;
 	
 	--swatch-var-5406:rgba(19,145,222,0.79);
+	
+	--swatch-var-4144:rgba(193,9,9,0.70);
+	
+	--swatch-var-6300:#5B6C06;
 	
 }
 
 
 /* Background colour styles */
 
-.bgc-4949{
-	background-color:var(--swatch-var-4949);
+.bgc-6300{
+	background-color:var(--swatch-var-6300);
 }
 .bgc-3409{
 	background-color:var(--swatch-var-3409);
 }
 .bgc-5202{
 	background-color:var(--swatch-var-5202);
-}
-.bgc-598{
-	background-color:var(--swatch-var-598);
 }
 .bgc-5967{
 	background-color:var(--swatch-var-5967);
@@ -1310,17 +1280,6 @@ url("img/pie.webp") 2x);
 url("img/maxresdefault.webp") 2x);background-image: image-set(url("img/maxresdefault.jpg") 1x,
 url("img/maxresdefault.jpg") 2x,url("img/maxresdefault.webp") 1x,
 url("img/maxresdefault.webp") 2x);
-}
-.bg-watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector{
-	background-image:url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg");
-	background-image: -webkit-image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);background-image: image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 2x,url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);
-	background-image: -webkit-image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);background-image: image-set(url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.jpg") 2x,url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 1x,
-url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp") 2x);
 }
 
 
@@ -1611,6 +1570,9 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 		border-radius:10px 10px 10px 10px;
 		background-color:#FFFFFF;
 	}
+	.bloc-fill{
+		fill:var(--swatch-var-4144);
+	}
 	
 }
 
@@ -1653,7 +1615,6 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 		border-width:0px 0px 0px 0px;
 		border-color:rgba(245,244,244,0.71)!important;
 		font-size:100px;
-		background-size:cover;
 	}
 	.منو{
 		font-size:170px;
@@ -1831,8 +1792,8 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 	.btn-back{
 		font-size:15px;
 	}
-	.bloc-hot-beverages-fill{
-		fill:var(--swatch-var-528);
+	.h3-یلداتون-مبارک-style{
+		font-size:70px;
 	}
 	
 }
@@ -2016,6 +1977,9 @@ url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fru
 	}
 	.p-73-style{
 		font-size:20px;
+	}
+	.h3-یلداتون-مبارک-style{
+		font-size:40px;
 	}
 	
 }
