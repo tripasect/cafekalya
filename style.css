@@ -125,6 +125,9 @@ nav .dropdown-menu .nav-link{color:rgba(0,0,0,0.6)!important;} /* Maintain Downd
 .bg-center{
 	-webkit-background-size: auto;
 }
+.bg-repeat{
+	background-repeat:repeat!important;
+}
 .bg-b-edge{
 	background-position: bottom!important;
 	background-repeat: no-repeat;
@@ -720,8 +723,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	border-radius:89px 89px 89px 89px;
 	border-width:0px 0px 0px 0px;
 	border-color:rgba(250,247,247,0.65)!important;
-	background-image:url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp");
-	background-color:var(--swatch-var-703);
+	background-color:var(--swatch-var-7429);
 	color:var(--swatch-var-2941)!important;
 }
 .مسیریابی{
@@ -1091,7 +1093,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-2941:rgba(255,255,255,1.00);
 	
-	--swatch-var-3409:#900909;
+	--swatch-var-3409:rgba(193,9,9,1.00);
 	
 	--swatch-var-2359:#4D40A6;
 	
@@ -1111,7 +1113,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-4224:rgba(5,73,2,0.81);
 	
-	--swatch-var-528:rgba(246,237,202,0.57);
+	--swatch-var-528:rgba(202,226,246,0.57);
 	
 	--swatch-var-5202:rgba(255,255,255,0.67);
 	
@@ -1129,7 +1131,9 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-4144:rgba(193,9,9,0.70);
 	
-	--swatch-var-6300:#5B6C06;
+	--swatch-var-6300:rgba(91,109,6,1.00);
+	
+	--swatch-var-7429:rgba(1,49,6,1.00);
 	
 }
 
@@ -1243,27 +1247,6 @@ url("img/pattern-transparent.webp") 2x);background-image: image-set(url("img/pat
 url("img/pattern-transparent.png") 2x,url("img/pattern-transparent.webp") 1x,
 url("img/pattern-transparent.webp") 2x);
 }
-.bg-anar{
-	background-image:url("img/anar.jpg");
-	background-image: -webkit-image-set(url("img/anar.webp") 1x,
-url("img/anar.webp") 2x);background-image: image-set(url("img/anar.jpg") 1x,
-url("img/anar.jpg") 2x,url("img/anar.webp") 1x,
-url("img/anar.webp") 2x);
-}
-.bg-barg-2{
-	background-image:url("img/barg-2.jpg");
-	background-image: -webkit-image-set(url("img/barg-2.webp") 1x,
-url("img/barg-2.webp") 2x);background-image: image-set(url("img/barg-2.jpg") 1x,
-url("img/barg-2.jpg") 2x,url("img/barg-2.webp") 1x,
-url("img/barg-2.webp") 2x);
-}
-.bg-baloot{
-	background-image:url("img/baloot.png");
-	background-image: -webkit-image-set(url("img/baloot.webp") 1x,
-url("img/baloot.webp") 2x);background-image: image-set(url("img/baloot.png") 1x,
-url("img/baloot.png") 2x,url("img/baloot.webp") 1x,
-url("img/baloot.webp") 2x);
-}
 .bg-pie{
 	background-image:url("img/pie.png");
 	background-image: -webkit-image-set(url("img/pie.webp") 1x,
@@ -1278,8 +1261,40 @@ url("img/maxresdefault.webp") 2x);background-image: image-set(url("img/maxresdef
 url("img/maxresdefault.jpg") 2x,url("img/maxresdefault.webp") 1x,
 url("img/maxresdefault.webp") 2x);
 }
-.bg-watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector{
-	background-image:url("img/watermelon-skin-striped-seamless-pattern-watermelon-peel-background-fruit-summer-texture-green-abstract-striped-seamless-pattern-illustration-vector.webp");
+.bg-istockphoto-1181274264-612x612{
+	background-image:url("img/istockphoto-1181274264-612x612.jpg");
+	background-image: -webkit-image-set(url("img/istockphoto-1181274264-612x612.webp") 1x,
+url("img/istockphoto-1181274264-612x612.webp") 2x);background-image: image-set(url("img/istockphoto-1181274264-612x612.jpg") 1x,
+url("img/istockphoto-1181274264-612x612.jpg") 2x,url("img/istockphoto-1181274264-612x612.webp") 1x,
+url("img/istockphoto-1181274264-612x612.webp") 2x);
+}
+.bg-pngtree-watercolor-winter-snow-scene-png-image-6478606{
+	background-image:url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.png");
+	background-image: -webkit-image-set(url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.webp") 1x,
+url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.webp") 2x);background-image: image-set(url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.png") 1x,
+url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.png") 2x,url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.webp") 1x,
+url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.webp") 2x);
+}
+.bg-snow{
+	background-image:url("img/snow.png");
+	background-image: -webkit-image-set(url("img/snow.webp") 1x,
+url("img/snow.webp") 2x);background-image: image-set(url("img/snow.png") 1x,
+url("img/snow.png") 2x,url("img/snow.webp") 1x,
+url("img/snow.webp") 2x);
+}
+.bg-cane-candy{
+	background-image:url("img/cane-candy.png");
+	background-image: -webkit-image-set(url("img/cane-candy.webp") 1x,
+url("img/cane-candy.webp") 2x);background-image: image-set(url("img/cane-candy.png") 1x,
+url("img/cane-candy.png") 2x,url("img/cane-candy.webp") 1x,
+url("img/cane-candy.webp") 2x);
+}
+.bg-Screenshot-202024-12-22-20at-2005-28-31{
+	background-image:url("img/Screenshot%202024-12-22%20at%2005.28.31.png");
+	background-image: -webkit-image-set(url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 1x,
+url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 2x);background-image: image-set(url("img/Screenshot%202024-12-22%20at%2005.28.31.png") 1x,
+url("img/Screenshot%202024-12-22%20at%2005.28.31.png") 2x,url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 1x,
+url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 2x);
 }
 
 
@@ -1788,9 +1803,11 @@ url("img/maxresdefault.webp") 2x);
 	}
 	.menu-page-title{
 		padding-top:20px;
+		text-shadow:2.11px 4.53px 4px #000000;
 	}
 	.btn-back{
 		font-size:15px;
+		text-shadow:2.11px 4.53px 5px #000000;
 	}
 	.h3-یلداتون-مبارک-style{
 		font-size:70px;
