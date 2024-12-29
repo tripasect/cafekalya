@@ -657,7 +657,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	height:6px;
 }
 .bloc-fill{
-	fill:var(--swatch-var-4144);
+	fill:var(--swatch-var-4856);
 }
 .bloc-0-fill{
 	fill:var(--swatch-var-5202);
@@ -1135,6 +1135,8 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-7429:rgba(1,49,6,1.00);
 	
+	--swatch-var-4856:rgba(121,0,0,0.34);
+	
 }
 
 
@@ -1586,7 +1588,7 @@ url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 2x);
 		background-color:#FFFFFF;
 	}
 	.bloc-fill{
-		fill:var(--swatch-var-4144);
+		fill:var(--swatch-var-4856);
 	}
 	
 }
@@ -1803,11 +1805,9 @@ url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 2x);
 	}
 	.menu-page-title{
 		padding-top:20px;
-		text-shadow:2.11px 4.53px 4px #000000;
 	}
 	.btn-back{
 		font-size:15px;
-		text-shadow:2.11px 4.53px 5px #000000;
 	}
 	.h3-یلداتون-مبارک-style{
 		font-size:70px;

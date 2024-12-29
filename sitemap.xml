@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <url>
 	<loc>https://cafekalya.ir</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-12-29</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>1.0</priority>
 	<image:image>
@@ -128,7 +128,7 @@
 </url>
 <url>
 	<loc>https://cafekalya.ir/menu.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-12-29</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 	<image:image>
@@ -756,14 +756,6 @@
 	<image:title>drink thumb</image:title>
 	</image:image>
 	<image:image>
-	<image:loc>https://cafekalya.ir/img/chocolate-cake.png</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
-	<image:loc>https://cafekalya.ir/img/chocolate-cake.webp</image:loc>
-	<image:title>drink thumb</image:title>
-	</image:image>
-	<image:image>
 	<image:loc>https://cafekalya.ir/img/menu@1920×1080.jpeg</image:loc>
 	<image:title>Twitter Social Card Image</image:title>
 	</image:image>
@@ -774,13 +766,13 @@
 </url>
 <url>
 	<loc>https://cafekalya.ir/snapp.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-12-29</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
 <url>
 	<loc>https://cafekalya.ir/maps.html</loc>
-	<lastmod>2024-12-22</lastmod>
+	<lastmod>2025-12-29</lastmod>
 	<changefreq>Weekly</changefreq>
 	<priority>0.5</priority>
 </url>
