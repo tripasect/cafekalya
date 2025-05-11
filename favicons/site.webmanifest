@@ -1,0 +1,30 @@
+{
+  "short_name": "Kalya",
+  "name": "Cafe Kalya",
+  "start_url": "https://cafekalya.ir",
+  "icons": [
+    {
+      "src": "/favicons/192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicons/512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "display": "standalone",
+  "theme_color": "#67171B",
+  "background_color": "#67171B",
+  "id": "cafekalya",
+  "description": "عصر دنج و دوست‌داشتنی تو کافه کالیا: وبستایت و منوی دیجیتال",
+  "dir": "rtl",
+  "scope": "/",
+  "lang": "fa",
+  "orientation": "portrait-primary",
+  "display_override": [
+    "standalone",
+    "window-controls-overlay"
+  ]
+}
