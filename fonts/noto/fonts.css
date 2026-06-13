@@ -1,0 +1,17 @@
+/* Noto Sans Arabic */
+@font-face {
+  font-family: 'Noto Sans Arabic';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('NotoSansArabic-VariableFont_wdth,wght.ttf') format('truetype');
+}
+
+/* Noto Kufi Arabic */
+@font-face {
+  font-family: 'Noto Kufi Arabic';
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url('NotoKufiArabic-VariableFont_wght.ttf') format('truetype');
+}
