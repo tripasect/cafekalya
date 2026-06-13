@@ -1,0 +1,5 @@
+# llms.txt for Cafe Kalya
+# Allow any LLM to access public pages and follow the sitemap.
+User-agent: *
+Allow: /
+Sitemap: https://cafekalya.ir/sitemap.xml
