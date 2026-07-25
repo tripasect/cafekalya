@@ -247,13 +247,11 @@
       const noteInput = document.getElementById('invoice-note-input');
       if (noteInput) noteInput.value = '';
       
-      // Explicitly hide the sticky bar when disabling invoice mode
-      const bar = document.getElementById('sticky-invoice-bar');
-      if (bar) {
-        bar.classList.remove('show');
-        // Optionally, you could remove the element if it's meant to be completely gone
-        // bar.remove(); 
-      }
+       // Explicitly hide the sticky bar when disabling invoice mode
+       const bar = document.getElementById('sticky-invoice-bar');
+       if (bar) {
+         bar.classList.remove('show');
+       }
     }
 
     // Force hide/show all steppers on page
@@ -294,6 +292,8 @@
     const bar = document.getElementById('sticky-invoice-bar');
     if (!bar) return;
 
+    // The bar is always present; we just toggle its visibility.
+    // It is initially hidden, and shown when invoice mode is active.
     bar.classList.toggle('show', invoiceActive);
 
     // Sync all steppers on page
