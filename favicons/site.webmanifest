@@ -1,5 +1,5 @@
 {
-  "short_name": "Kalya",
+  "short_name": "Cafe Kalya",
   "name": "Cafe Kalya",
   "start_url": "https://cafekalya.ir",
   "icons": [
@@ -15,8 +15,8 @@
     }
   ],
   "display": "standalone",
-  "theme_color": "#67171B",
-  "background_color": "#67171B",
+  "theme_color": "#3E2711",
+  "background_color": "#3E2711",
   "id": "cafekalya",
   "description": "عصر دنج و دوست‌داشتنی تو کافه کالیا: وبستایت و منوی دیجیتال",
   "dir": "rtl",

@@ -719,11 +719,10 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	font-weight:700;
 	width:38.66%;
 	text-align:center;
+	border-radius:100px 100px 100px 100px;
 	background-size:cover;
-	border-radius:89px 89px 89px 89px;
-	border-width:0px 0px 0px 0px;
-	border-color:rgba(250,247,247,0.65)!important;
 	background-color:var(--swatch-var-7429);
+	backdrop-filter: blur(5px);
 	color:var(--swatch-var-2941)!important;
 }
 .مسیریابی{
@@ -1093,7 +1092,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-2941:rgba(255,255,255,1.00);
 	
-	--swatch-var-3409:rgba(193,9,9,1.00);
+	--swatch-var-3409:#8e724f;
 	
 	--swatch-var-2359:#4D40A6;
 	
@@ -1133,7 +1132,7 @@ h1,h2,h3,h4,h5,h6,p,label,.btn,a{
 	
 	--swatch-var-6300:rgba(91,109,6,1.00);
 	
-	--swatch-var-7429:rgba(1,49,6,1.00);
+	--swatch-var-7429:rgba(91, 76, 57, 0.95);
 	
 	--swatch-var-4856:rgba(121,0,0,0.34);
 	
@@ -1264,7 +1263,8 @@ url("img/maxresdefault.jpg") 2x,url("img/maxresdefault.webp") 1x,
 url("img/maxresdefault.webp") 2x);
 }
 .bg-istockphoto-1181274264-612x612{
-	background-image:url("img/background.webp");
+	background: linear-gradient(135deg, rgb(44, 85, 53, 0.8), rgb(58, 35, 9, 0.8));
+	backdrop-filter: blur(10px);
 }
 .bg-pngtree-watercolor-winter-snow-scene-png-image-6478606{
 	background-image:url("img/pngtree-watercolor-winter-snow-scene-png-image_6478606.png");
