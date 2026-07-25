@@ -35,7 +35,7 @@ function formatPrice(amount) {
 
 // Generate static HTML for an invoice
 function renderInvoiceHtml(invoiceData) {
-  const { id, items, total, date, tableNumber, receptionistNote, shareUrl, qrCodeDataUrl } = invoiceData;
+  const { id, items, total, date, tableNumber, receptionistNote, shareUrl, qrCodeDataUrl, cardNumber, phoneNumber } = invoiceData;
 
   const itemsHtml = items.map((item, index) => {
     const itemTotal = (parseInt(item.price, 10) || 0) * (parseInt(item.quantity, 10) || 1);
@@ -60,18 +60,16 @@ function renderInvoiceHtml(invoiceData) {
   <link rel="stylesheet" type="text/css" href="/style.css">
   <link rel="stylesheet" type="text/css" href="/fonts/noto/fonts.css">
   <link rel="stylesheet" type="text/css" href="/css/invoice.css">
+  <script src="/js/html2canvas.min.js"></script>
 </head>
 <body class="invoice-page-body">
   <div class="container py-4">
     
     <!-- Top Action Bar (Hidden when printing) -->
     <div class="no-print invoice-actions-bar">
-      <a href="/menu.html" class="invoice-back-btn">
-        ← بازگشت به منو
-      </a>
       <div class="invoice-action-buttons">
        <button onclick="window.print()" class="ki-btn-print">
-         چاپ فاکتور
+         چاپ
        </button>
          <a href="https://ble.ir/share/url?url=${encodeURIComponent(shareUrl)}&text=${encodeURIComponent('فاکتور خرید شما از کافه کالیا:')}" target="_blank" class="ki-share-btn ki-share-bale">
            بله
@@ -82,7 +80,13 @@ function renderInvoiceHtml(invoiceData) {
          <a href="https://api.whatsapp.com/send?text=${encodeURIComponent('فاکتور خرید شما از کافه کالیا: ' + shareUrl)}" target="_blank" class="ki-share-btn ki-share-whatsapp">
            واتساپ
          </a>
+         <a href="sms:?body=${encodeURIComponent('فاکتور خرید شما از کافه کالیا: ' + shareUrl)}" class="ki-share-btn ki-share-sms">
+           پیامک
+         </a>
       </div>
+      <button onclick="saveToGallery()" class="ki-btn-gallery">
+        ذخیره در گالری
+      </button>
     </div>
 
     <!-- Printable High-Contrast Invoice Card -->
@@ -147,6 +151,10 @@ function renderInvoiceHtml(invoiceData) {
         <!-- Footer & QR Code -->
         <div class="invoice-footer">
           <p class="invoice-footer-text">از حضور و سفارش گرم شما در کافه کالیا سپاسگزاریم!</p>
+          <div class="invoice-footer-contact">
+            ${cardNumber ? `<p><strong>شماره کارت:</strong> ${toPersianDigits(cardNumber)}</p>` : ''}
+            ${phoneNumber ? `<p><strong>موبایل:</strong> ${toPersianDigits(phoneNumber)}</p>` : ''}
+          </div>
           <div class="invoice-qr-block no-print">
             <img src="${qrCodeDataUrl}" alt="QR Code فاکتور" class="qr-code-img" />
             <span class="invoice-qr-label">اسکن کنید جهت مشاهده آنلاین فاکتور</span>
@@ -157,6 +165,80 @@ function renderInvoiceHtml(invoiceData) {
 
     </div>
   </div>
+
+  <script>
+    async function saveToGallery() {
+      const btn = document.querySelector('.ki-btn-gallery');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = 'در حال آماده‌سازی...';
+      btn.disabled = true;
+
+      try {
+        console.log('Attempting to save to gallery...');
+        const card = document.querySelector('.invoice-card');
+        const canvas = await html2canvas(card, {
+          useCORS: true,
+          scale: 2,
+          backgroundColor: '#ffffff',
+          logging: false
+        });
+        console.log('Canvas created:', canvas);
+
+        canvas.toBlob(async (blob) => {
+          console.log('Blob callback executed, blob:', blob);
+          if (!blob) {
+            console.error('Blob creation failed.');
+            alert('خطا در ایجاد تصویر فاکتور');
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+            return;
+          }
+
+          const fileName = 'invoice-${id}.png';
+          const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+
+          if (isMobile && navigator.share && navigator.canShare) {
+            try {
+              const file = new File([blob], fileName, { type: 'image/png' });
+              if (navigator.canShare({ files: [file] })) {
+                await navigator.share({
+                  files: [file],
+                  title: 'فاکتور کافه کالیا',
+                  text: 'فاکتور خرید شما از کافه کالیا'
+                });
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                return;
+              }
+            } catch (shareErr) {
+              console.log('Share failed or was canceled, falling back to download:', shareErr);
+            }
+          }
+
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = fileName;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          
+          setTimeout(() => {
+            URL.revokeObjectURL(url);
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+          }, 100);
+
+        }, 'image/png');
+
+      } catch (err) {
+        console.error('Error saving image:', err);
+        alert('خطا در ذخیره فاکتور: ' + err.message);
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+  </script>
 </body>
 </html>`;
 }
@@ -164,7 +246,7 @@ function renderInvoiceHtml(invoiceData) {
 // API: Create new invoice
 app.post('/api/invoices', async (req, res) => {
   try {
-    const { items, total, tableNumber, receptionistNote } = req.body;
+    const { items, total } = req.body;
     
     if (!items || !Array.isArray(items) || items.length === 0) {
       return res.status(400).json({ error: 'منو / آیتم‌های فاکتور خالی است.' });
@@ -176,6 +258,9 @@ app.post('/api/invoices', async (req, res) => {
 
     const randomSuffix = Math.floor(1000 + Math.random() * 9000);
     const invoiceId = `KAL-${now.getFullYear()}${(now.getMonth()+1).toString().padStart(2,'0')}${now.getDate().toString().padStart(2,'0')}-${randomSuffix}`;
+
+    const cardNumber = '۶۲۱۹‌‎ ۸۶۱۹‌‎ ۲۴۲۰‌‎ ۱۵۶۸';
+    const phoneNumber = '۰۹۱۲۲۷۰۲۷۶۴';
 
     // Compute shareable URL
     const host = req.get('host');
@@ -196,11 +281,11 @@ app.post('/api/invoices', async (req, res) => {
       id: invoiceId,
       items,
       total,
-      tableNumber,
-      receptionistNote,
       date: dateStr,
       shareUrl,
-      qrCodeDataUrl
+      qrCodeDataUrl,
+      cardNumber,
+      phoneNumber
     };
 
     // Save JSON data

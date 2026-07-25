@@ -1,0 +1,31 @@
+{
+  "id": "KAL-20260725-4116",
+  "items": [
+    {
+      "name": "آفوگاتو",
+      "price": 290000,
+      "quantity": 1
+    },
+    {
+      "name": "آیس موکا",
+      "price": 275000,
+      "quantity": 1
+    },
+    {
+      "name": "آب پرتقال",
+      "price": 250000,
+      "quantity": 1
+    },
+    {
+      "name": "چای سبز",
+      "price": 140000,
+      "quantity": 1
+    }
+  ],
+  "total": 955000,
+  "tableNumber": "",
+  "receptionistNote": "",
+  "date": "۱۴۰۵/۵/۳ ۰۴:۱۸",
+  "shareUrl": "http://cafekalya.ir/invoices/KAL-20260725-4116.html",
+  "qrCodeDataUrl": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAAAklEQVR4AewaftIAAAetSURBVO3BwZEbyo5FwaMKOoAljID/hsAILGGCvlazQFARJZJq9cPczB8/f0FkiYPIIgeRRQ4iixxEFjmILPLgN8KN7ySreVW4MWU1U7gxZTXPhBs3spob4cY7spob4caU1dwIN76TrGY6iCxyEFnkILLIQWSRB38gq/nbwo2vEG5MWc2trOZvy2qmcOMdWc0nZTVfIdy4cRBZ5CCyyEFkkYPIIg/eFG68Kqt5R7gxZTWvCjemrOaZcONGVnMjq7mR1TwTbkxZzY1wY8pq3hFuvCqredVBZJGDyCIHkUUOIos8WCbceFVWcyurmcKNV4UbN7KaT8tqtjiILHIQWeQgsshBZJEHy2Q1U7gxZTU3wo13hBs3spob4cYzWc0UbkxZzRRuTFnNf9FBZJGDyCIHkUUOIos8eFNW891lNVO4MWU178hqboQbN8KNKat5Jtx4VVbzaVnNv3AQWeQgsshBZJGDyCIP/kC48V8UbkxZzRRuTFnNM+HGjXBjymqmcGPKaqZw45msZgo3boQbU1ZzI9z4Tg4iixxEFjmILHIQWeQgssiD38hq/ovCjSmrmcKNG+HGvxJu3Ao3pqzmk7Ka7+4gsshBZJGDyCIHkUUe/Ea4MWU1U7jxFbKaKau5EW5MWc0UbtzKam5kNVO4MWU1U7gxZTW3wo0pq3lVuPEVsppXHUQWOYgschBZ5CCyyIM/EG7cyGqmcGPKar6TrGYKN76TcOOZrOZGuDFlNa/Kam6FGzfCjSmruXEQWeQgsshBZJGDyCI/fv7CFwg3pqxmCjduZTVTuPGqrGYKN75CVnMj3HhHVvMVwo0pq5nCjVdlNdNBZJGDyCIHkUUOIov8+PkLT4Qbn5TVfIVw4ytkNa8KN767rGYKN6as5plw41VZzasOIoscRBY5iCxyEFnkwR/IaqZwY8pqXhVuvCOrmcKNKat5R7jxqqzmRrjxjqxmCjc+Kdx4JquZwo0pq5nCjRtZzXQQWeQgsshBZJGDyCIPfiOrmcKNKav5pKzmmXDjRrgxZTVTuPGOrGYKN6as5ka4MWU17wg3pqxmCjduZDXf3UFkkYPIIgeRRQ4iixxEFvnx8xcuhRs3sppXhRu3spob4caU1Uzhxr+S1dwIN25lNX9buHErq5nCjRtZzY2DyCIHkUUOIoscRBb58fMXngg3pqxmCjduZDVTuDFlNf8F4caNrOZGuDFlNbfCjRtZzRRufIWsZgo3pqzmVQeRRQ4iixxEFjmILPLgD4QbU1bzqqxmCjeeyWo+Kdx4R1YzhRtTuHEjq3lHVjOFG1O48aqsZgo3vkK4MWU100FkkYPIIgeRRQ4ii/z4+QtPhBtTVnMj3Jiymn8l3JiymincmLKad4QbU1YzhRs3spp3hBtTVnMj3LiV1UzhxidlNdNBZJGDyCIHkUUOIos8+I2sZgo3bmQ1U7gxZTVTuHErq3lVuDFlNVO48UxWM4Ubn5TVfFpWcyPcmLKaW+HGlNVM4cYnHUQWOYgschBZ5CCyyIPfCDduZDU3spop3JiymmfCje8k3PikrGYKN6as5plw40ZW86+EGzeymincuHEQWeQgsshBZJGDyCIPfiOruRFufFK48Y5wY8pqpnBjCjemrOZWuDFlNTfCjSmr+QrhxpTVTOHGlNW8I6v5pIPIIgeRRQ4iixxEFjmILPLgN8KNG1nNVwg3bmQ1U7gxZTVTuHEr3LgRbtzIam6EG+8IN75CVnMj3JiymlcdRBY5iCxyEFnkILLIgz+Q1XxSuHErq5nCjSmrmbKaKdz4tKzmRrhxI9yYsppnwo0pq5nCjSmruZHVTOHGp4UbU1Zz4yCyyEFkkYPIIgeRRR68Kdz4pKzmmXDjRrgxZTX/SrgxZTWvCjduhRs3wo0bWc2trOZGuDFlNa86iCxyEFnkILLIQWSRB2/KaqZwY8pqboQbz2Q1N8KNKdyYspop3Pi0rGYKN6as5h1ZzavCjRvhxq1w41Xhxo2sZjqILHIQWeQgsshBZJEHv5HVvCqreVVWcyvcmLKaTwo3nslqboQbN8KN7ySreUe4MWU1U7jxSQeRRQ4iixxEFjmILPLgN8KN7ySrmbKaG+HGq7KaZ8KNT8pqboQb7wg3XhVuTFnNp2U1rzqILHIQWeQgsshBZJEHfyCr+dvCjVvhxpTV3MhqpnBjCjduZTU3wo0p3JiymimreSbc+Nuymq8QbtzIaqaDyCIHkUUOIoscRBY5iCzy4E3hxquymk8LN6asZgo3pqzmHeHGjazmRrgxZTW3spob4cYUbnxauDFlNZ90EFnkILLIQWSRg8giD+T/hBu3spobWc0UbtzIam5lNa/KaqZwY8pqpnDjVlYzhRs3spobB5FFDiKLHEQWOYgs8uD/qaxmCjduhRs3wo0pq5nCjU8LN16V1Uzhxq2s5lVZzasOIoscRBY5iCxyEFnkwZuymn8lq3lVuDFlNbfCjRtZzY2s5h3hxpTVTOHGlNV8WrhxI6v5pIPIIgeRRQ4iixxEFnnwB8KN7yTceFVW846sZgo3boQbU1bzjqxmCjemrGYKN6asZspqpnDjVlZzI9yYspobB5FFDiKLHEQWOYgs8uPnL4gscRBZ5CCyyEFkkYPIIv8DkOXvQKUbCJwAAAAASUVORK5CYII="
+}

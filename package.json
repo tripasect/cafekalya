@@ -10,6 +10,7 @@
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.19.2",
+    "html2canvas": "^1.4.1",
     "qrcode": "^1.5.3"
   }
 }

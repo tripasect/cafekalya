@@ -8,6 +8,7 @@
   <link rel="stylesheet" type="text/css" href="/style.css">
   <link rel="stylesheet" type="text/css" href="/fonts/noto/fonts.css">
   <link rel="stylesheet" type="text/css" href="/css/invoice.css">
+  <script src="/js/html2canvas.min.js"></script>
 </head>
 <body class="invoice-page-body">
   <div class="container py-4">
@@ -15,11 +16,11 @@
     <!-- Top Action Bar (Hidden when printing) -->
     <div class="no-print invoice-actions-bar">
       <a href="/menu.html" class="invoice-back-btn">
-        ← بازگشت به منو
+        بازگشت به منو ←
       </a>
       <div class="invoice-action-buttons">
        <button onclick="window.print()" class="ki-btn-print">
-         چاپ فاکتور
+         چاپ
        </button>
          <a href="https://ble.ir/share/url?url=http%3A%2F%2Fcafekalya.ir%2Finvoices%2FKAL-20260725-4590.html&text=%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D8%B4%D9%85%D8%A7%20%D8%A7%D8%B2%20%DA%A9%D8%A7%D9%81%D9%87%20%DA%A9%D8%A7%D9%84%DB%8C%D8%A7%3A" target="_blank" class="ki-share-btn ki-share-bale">
            بله
@@ -30,7 +31,13 @@
          <a href="https://api.whatsapp.com/send?text=%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D8%B4%D9%85%D8%A7%20%D8%A7%D8%B2%20%DA%A9%D8%A7%D9%81%D9%87%20%DA%A9%D8%A7%D9%84%DB%8C%D8%A7%3A%20http%3A%2F%2Fcafekalya.ir%2Finvoices%2FKAL-20260725-4590.html" target="_blank" class="ki-share-btn ki-share-whatsapp">
            واتساپ
          </a>
+         <a href="sms:?body=%D9%81%D8%A7%DA%A9%D8%AA%D9%88%D8%B1%20%D8%AE%D8%B1%DB%8C%D8%AF%20%D8%B4%D9%85%D8%A7%20%D8%A7%D8%B2%20%DA%A9%D8%A7%D9%81%D9%87%20%DA%A9%D8%A7%D9%84%DB%8C%D8%A7%3A%20http%3A%2F%2Fcafekalya.ir%2Finvoices%2FKAL-20260725-4590.html" class="ki-share-btn ki-share-sms">
+           پیامک
+         </a>
       </div>
+      <button onclick="saveToGallery()" class="ki-btn-gallery">
+        ذخیره در گالری
+      </button>
     </div>
 
     <!-- Printable High-Contrast Invoice Card -->
@@ -122,5 +129,74 @@
 
     </div>
   </div>
+
+  <script>
+    async function saveToGallery() {
+      const btn = document.querySelector('.ki-btn-gallery');
+      const originalText = btn.innerHTML;
+      btn.innerHTML = 'در حال آماده‌سازی...';
+      btn.disabled = true;
+
+      try {
+        const card = document.querySelector('.invoice-card');
+        const canvas = await html2canvas(card, {
+          useCORS: true,
+          scale: 2,
+          backgroundColor: '#ffffff',
+          logging: false
+        });
+
+        canvas.toBlob(async (blob) => {
+          if (!blob) {
+            alert('خطا در ایجاد تصویر فاکتور');
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+            return;
+          }
+
+          const fileName = 'invoice-KAL-20260725-4590.png';
+
+          if (navigator.share && navigator.canShare) {
+            try {
+              const file = new File([blob], fileName, { type: 'image/png' });
+              if (navigator.canShare({ files: [file] })) {
+                await navigator.share({
+                  files: [file],
+                  title: 'فاکتور کافه کالیا',
+                  text: 'فاکتور خرید شما از کافه کالیا'
+                });
+                btn.innerHTML = originalText;
+                btn.disabled = false;
+                return;
+              }
+            } catch (shareErr) {
+              console.log('Share failed or was canceled, falling back to download:', shareErr);
+            }
+          }
+
+          const url = URL.createObjectURL(blob);
+          const a = document.createElement('a');
+          a.href = url;
+          a.download = fileName;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+          
+          setTimeout(() => {
+            URL.revokeObjectURL(url);
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+          }, 100);
+
+        }, 'image/png');
+
+      } catch (err) {
+        console.error('Error saving image:', err);
+        alert('خطا در ذخیره فاکتور: ' + err.message);
+        btn.innerHTML = originalText;
+        btn.disabled = false;
+      }
+    }
+  </script>
 </body>
 </html>

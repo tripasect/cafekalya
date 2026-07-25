@@ -122,24 +122,12 @@
       <!-- Expandable drawer -->
       <div id="invoice-drawer" class="invoice-drawer">
         <div class="invoice-drawer-scroll" id="invoice-drawer-list"></div>
-        <div class="invoice-drawer-inputs">
-          <input
-            type="text"
-            id="invoice-table-num"
-            class="ki-input"
-            style="width:130px"
-            placeholder="شماره میز"
-            autocomplete="off"
-          />
-          <input
-            type="text"
-            id="invoice-note-input"
-            class="ki-input"
-            style="width:220px"
-            placeholder="یادداشت (اختیاری)"
-            autocomplete="off"
-          />
-        </div>
+          <div class="invoice-custom-item-inputs prominent-inputs">
+            <input type="text" id="custom-item-name" class="ki-input" placeholder="نام آیتم" autocomplete="off" />
+            <input type="number" id="custom-item-qty" class="ki-input" placeholder="تعداد" value="1" min="1" />
+            <input type="text" id="custom-item-price" class="ki-input" placeholder="قیمت واحد (هزار تومان)" autocomplete="off" />
+            <button type="button" class="btn ki-btn-add-custom" id="add-custom-item-btn">افزودن</button>
+          </div>
       </div>
 
       <!-- Main bar strip -->
@@ -157,7 +145,7 @@
             class="btn invoice-drawer-toggle-btn"
             id="invoice-drawer-toggle"
           >
-             ریز فاکتور
+             پیش‌نمایش
           </button>
           <button
             type="button"
@@ -180,6 +168,7 @@
     };
 
     document.getElementById('invoice-checkout-btn').onclick = submitCheckout;
+    document.getElementById('add-custom-item-btn').onclick = addCustomItem;
   }
 
   /* ─────────────────────────────────────────────────────────
@@ -256,7 +245,6 @@
       if (drawerBtn) drawerBtn.classList.remove('open');
       const tableNumInput = document.getElementById('invoice-table-num');
       const noteInput = document.getElementById('invoice-note-input');
-      if (tableNumInput) tableNumInput.value = '';
       if (noteInput) noteInput.value = '';
       
       // Explicitly hide the sticky bar when disabling invoice mode
@@ -412,8 +400,6 @@
 
     const items = Array.from(invoiceItems.values());
     const total = items.reduce((s, i) => s + i.price * i.quantity, 0);
-    const tableNumber = document.getElementById('invoice-table-num')?.value.trim() || '';
-    const receptionistNote = document.getElementById('invoice-note-input')?.value.trim() || '';
 
     const btn = document.getElementById('invoice-checkout-btn');
       if (btn) { btn.disabled = true; btn.textContent = 'در حال ثبت...'; }
@@ -422,7 +408,7 @@
       const res = await fetch('/api/invoices', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ items, total, tableNumber, receptionistNote })
+        body: JSON.stringify({ items, total })
       });
       const data = await res.json();
 
@@ -440,6 +426,37 @@
       alert('خطا در ارتباط با سرور');
       if (btn) { btn.disabled = false; btn.textContent = 'صدور فاکتور'; }
     }
+  }
+
+  async function addCustomItem() {
+    const nameInput = document.getElementById('custom-item-name');
+    const qtyInput = document.getElementById('custom-item-qty');
+    const priceInput = document.getElementById('custom-item-price');
+
+    const name = nameInput.value.trim();
+    const quantity = parseInt(qtyInput.value, 10);
+    const price = parseInt(faToEn(priceInput.value.replace(/[^۰-۹0-9]/g, '')), 10) * 1_000;
+
+    if (!name || isNaN(quantity) || quantity <= 0 || isNaN(price) || price <= 0) {
+      showToast('لطفا اطلاعات آیتم سفارشی را به درستی وارد کنید.', false);
+      return;
+    }
+
+    // Add or update item
+    if (invoiceItems.has(name)) {
+      invoiceItems.get(name).quantity += quantity;
+    } else {
+      invoiceItems.set(name, { name, price, quantity });
+    }
+
+    // Clear inputs
+    nameInput.value = '';
+    qtyInput.value = '1';
+    priceInput.value = '';
+
+    showToast(`آیتم \'${name}\' با موفقیت اضافه شد.`, true);
+    updateUI();
+    saveState();
   }
 
   /* ─────────────────────────────────────────────────────────

@@ -251,7 +251,13 @@
 }
 
 .invoice-drawer.open {
-  max-height: 280px;
+  max-height: 450px;
+}
+
+@media (min-width: 576px) {
+  .invoice-drawer.open {
+    max-height: 280px;
+  }
 }
 
 .invoice-drawer-scroll {
@@ -260,14 +266,43 @@
   padding: 12px 20px;
 }
 
+.invoice-custom-item-inputs,
 .invoice-drawer-inputs {
   display: flex;
+  flex-direction: column;
   gap: 12px;
   padding: 10px 20px 14px;
   border-top: 1px solid rgba(200,144,58,0.15);
+  align-items: stretch;
   justify-content: center;
-  flex-wrap: wrap;
 }
+
+@media (min-width: 576px) {
+  .invoice-custom-item-inputs,
+  .invoice-drawer-inputs {
+    flex-direction: row;
+    align-items: center;
+  }
+  .invoice-custom-item-inputs .ki-input,
+  .invoice-drawer-inputs .ki-input {
+    flex: 1;
+  }
+  .invoice-custom-item-inputs .ki-btn-add-custom,
+  .invoice-drawer-inputs .ki-btn-add-custom {
+    flex-shrink: 0;
+  }
+}
+
+
+.ki-btn-add-custom {
+  background: linear-gradient(135deg, #f0bc68, #c8903a) !important;
+  color: #120a05 !important;
+  font-family: var(--ki-font-kufi) !important;
+  font-size: 0.85rem !important;
+  font-weight: 900 !important;
+  padding: 6px 14px !important;
+  border-radius: 8px !important;
+  }
 
 .ki-input {
   font-family: var(--ki-font-kufi) !important;
@@ -434,6 +469,31 @@
 .ki-share-bale     { background: #008f70 !important; }
 .ki-share-telegram { background: #0088cc !important; }
 .ki-share-whatsapp { background: #25d366 !important; }
+.ki-share-sms      { background: #e67e22 !important; }
+
+.ki-btn-gallery {
+  font-family: var(--ki-font-kufi) !important;
+  font-size: 0.95rem !important;
+  font-weight: 800 !important;
+  color: #ffffff !important;
+  background: linear-gradient(135deg, #0284c7, #0369a1) !important;
+  border: none !important;
+  border-radius: 50px !important;
+  padding: 12px 24px !important;
+  cursor: pointer !important;
+  box-shadow: 0 4px 14px rgba(3, 105, 161, 0.4) !important;
+  transition: all 0.2s !important;
+  width: 100%;
+  text-align: center;
+  margin-top: 8px;
+  display: block;
+}
+
+.ki-btn-gallery:hover {
+  transform: translateY(-1px) !important;
+  box-shadow: 0 6px 20px rgba(3, 105, 161, 0.6) !important;
+  filter: brightness(1.1) !important;
+}
 
 
 /* ── High Contrast Receipt Card ── */
