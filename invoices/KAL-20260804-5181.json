@@ -1,0 +1,26 @@
+{
+  "id": "KAL-20260804-5181",
+  "items": [
+    {
+      "name": "لاته",
+      "price": 240000,
+      "quantity": 1
+    },
+    {
+      "name": "موکا",
+      "price": 270000,
+      "quantity": 1
+    },
+    {
+      "name": "دوبل اسپرسو",
+      "price": 150000,
+      "quantity": 1
+    }
+  ],
+  "total": 660000,
+  "date": "۱۴۰۵/۵/۱۳ ۲۲:۳۶",
+  "shareUrl": "http://cafekalya.ir/invoices/KAL-20260804-5181.html",
+  "qrCodeDataUrl": "data:image/png;base64,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",
+  "cardNumber": "۶۲۱۹‌‎ ۸۶۱۹‌‎ ۲۴۲۰‌‎ ۱۵۶۸",
+  "phoneNumber": "۰۹۱۲۲۷۰۲۷۶۴"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "KAL-20260810-1261",
+  "items": [
+    {
+      "name": "کاپوچینو",
+      "price": 240000,
+      "quantity": 1
+    },
+    {
+      "name": "همبرگر",
+      "price": 430000,
+      "quantity": 1
+    },
+    {
+      "name": "آدامس دارچین",
+      "price": 360000,
+      "quantity": 1
+    }
+  ],
+  "total": 1030000,
+  "date": "۱۴۰۵/۵/۱۹ ۲۲:۲۳",
+  "shareUrl": "http://cafekalya.ir/invoices/KAL-20260810-1261.html",
+  "qrCodeDataUrl": "data:image/png;base64,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",
+  "cardNumber": "۶۲۱۹‌‎ ۸۶۱۹‌‎ ۲۴۲۰‌‎ ۱۵۶۸",
+  "phoneNumber": "۰۹۱۲۲۷۰۲۷۶۴"
+}

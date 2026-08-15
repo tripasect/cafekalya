@@ -1,0 +1,46 @@
+{
+  "id": "KAL-20260814-9270",
+  "items": [
+    {
+      "name": "همبرگر",
+      "price": 430000,
+      "quantity": 1
+    },
+    {
+      "name": "لیموناد بطری",
+      "price": 60000,
+      "quantity": 1
+    },
+    {
+      "name": "سیب زمینی مخصوص",
+      "price": 450000,
+      "quantity": 2
+    },
+    {
+      "name": "آدامس دارچین",
+      "price": 360000,
+      "quantity": 1
+    },
+    {
+      "name": "شب‌های مسکو",
+      "price": 360000,
+      "quantity": 1
+    },
+    {
+      "name": "آب نبات",
+      "price": 20000,
+      "quantity": 1
+    },
+    {
+      "name": "شکلات",
+      "price": 40000,
+      "quantity": 1
+    }
+  ],
+  "total": 2170000,
+  "date": "۱۴۰۵/۵/۲۳ ۲۲:۰۴",
+  "shareUrl": "http://cafekalya.ir/invoices/KAL-20260814-9270.html",
+  "qrCodeDataUrl": "data:image/png;base64,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",
+  "cardNumber": "۶۲۱۹‌‎ ۸۶۱۹‌‎ ۲۴۲۰‌‎ ۱۵۶۸",
+  "phoneNumber": "۰۹۱۲۲۷۰۲۷۶۴"
+}

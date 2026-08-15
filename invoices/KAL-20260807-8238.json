@@ -1,0 +1,26 @@
+{
+  "id": "KAL-20260807-8238",
+  "items": [
+    {
+      "name": "آیس آمریکانو",
+      "price": 195000,
+      "quantity": 1
+    },
+    {
+      "name": "شیرموز",
+      "price": 250000,
+      "quantity": 1
+    },
+    {
+      "name": "لاو",
+      "price": 360000,
+      "quantity": 1
+    }
+  ],
+  "total": 805000,
+  "date": "۱۴۰۵/۵/۱۶ ۲۱:۴۲",
+  "shareUrl": "http://cafekalya.ir/invoices/KAL-20260807-8238.html",
+  "qrCodeDataUrl": "data:image/png;base64,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",
+  "cardNumber": "۶۲۱۹‌‎ ۸۶۱۹‌‎ ۲۴۲۰‌‎ ۱۵۶۸",
+  "phoneNumber": "۰۹۱۲۲۷۰۲۷۶۴"
+}

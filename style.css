@@ -1816,23 +1816,23 @@ url("img/Screenshot%202024-12-22%20at%2005.28.31.webp") 2x);
 		text-align:center;
 	}
 	.menu-grid{
-		grid-template-columns:0.75fr 1fr 0.25fr;
+		grid-template-columns:0.60fr 1fr 0.25fr;
 		column-gap:7px;
 	}
 	.menu-price{
-		font-size:20px;
-		margin-top:10px;
+		font-size:16px;
+		margin-top:8px;
 		text-decoration:none;
 	}
 	.menu-item-title{
-		font-size:21px;
+		font-size:17px;
 	}
 	.drink-thumb{
-		height:100px;
-		width:100px;
+		height:80px;
+		width:80px;
 	}
 	.menu-item-info{
-		font-size:15px;
+		font-size:13px;
 	}
 	.page-heading{
 	}

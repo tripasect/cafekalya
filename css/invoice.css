@@ -727,6 +727,48 @@
 }
 
 
+/* ── Mobile Layout Fix: Sticky Bar on Small Screens ── */
+@media (max-width: 575px) {
+  .invoice-bar-content {
+    flex-wrap: wrap;
+    padding: 8px 14px;
+    row-gap: 6px;
+    gap: 8px;
+  }
+
+  .invoice-bar-left {
+    flex: 1 1 100%;
+    min-width: 0;
+  }
+
+  .invoice-summary-total {
+    font-size: 1.08rem;
+  }
+
+  .invoice-summary-count {
+    font-size: 0.78rem;
+  }
+
+  .invoice-bar-right {
+    flex: 1 1 100%;
+    justify-content: flex-end;
+    gap: 8px;
+  }
+
+  .invoice-checkout-btn {
+    flex: 1 !important;
+    padding: 9px 14px !important;
+    font-size: 0.88rem !important;
+    text-align: center;
+  }
+
+  .invoice-drawer-toggle-btn {
+    flex: 0 0 auto;
+    padding: 8px 12px !important;
+    font-size: 0.78rem !important;
+  }
+}
+
 /* Print Optimization */
 @media print {
   body, .invoice-page-body {
