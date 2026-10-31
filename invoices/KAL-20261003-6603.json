@@ -1,0 +1,36 @@
+{
+  "id": "KAL-20261003-6603",
+  "items": [
+    {
+      "name": "دوبل اسپرسو",
+      "price": 150000,
+      "quantity": 3
+    },
+    {
+      "name": "همبرگر",
+      "price": 430000,
+      "quantity": 2
+    },
+    {
+      "name": "هات داگ",
+      "price": 350000,
+      "quantity": 2
+    },
+    {
+      "name": "لیمو یخ",
+      "price": 360000,
+      "quantity": 1
+    },
+    {
+      "name": "کیک",
+      "price": 80000,
+      "quantity": 2
+    }
+  ],
+  "total": 2530000,
+  "date": "۱۴۰۵/۷/۱۱ ۲۰:۱۳",
+  "shareUrl": "http://cafekalya.ir/invoices/KAL-20261003-6603.html",
+  "qrCodeDataUrl": "data:image/png;base64,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",
+  "cardNumber": "۶۲۱۹‌‎ ۸۶۱۹‌‎ ۲۴۲۰‌‎ ۱۵۶۸",
+  "phoneNumber": "۰۹۱۲۲۷۰۲۷۶۴"
+}
